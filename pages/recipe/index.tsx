@@ -18,7 +18,7 @@ const RecipePage = (props:Props) => {
   )
 }
 
-RecipePage.getInitialProps = async({query}) => {
+RecipePage.getInitialProps = async({query}: any) => {
   const contentfulService = new ContentfulService();  
 
   const { name } = query;
