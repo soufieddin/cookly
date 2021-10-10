@@ -6,15 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "populate:contentful": "contentful space migration --management-token CFPAT-t33-kCh6rjoF4PXh4iRo7nZKNw2TInc-IE65zZEBnXY --space-id y4oca49q1gv6 contentful/recipe.js --yes"
   },
   "dependencies": {
+    "contentful": "^9.0.3",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/node": "^16.10.3",
     "@types/react": "17.0.27",
+    "contentful-cli": "^1.9.20",
+    "contentful-migration": "^4.5.7",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "typescript": "4.4.3"
