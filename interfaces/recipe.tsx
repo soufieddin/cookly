@@ -14,8 +14,8 @@ export interface Recipe {
   shortDescription: string;
   description: string;
   slug: string;
-  image: string;
-  publishedAt: Date;
+  image: any;
+  publishDate: Date;
   cookingTime: number;
   servings: number;
   ingredients: IngredientMetadata[];

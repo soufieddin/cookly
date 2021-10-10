@@ -2,8 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background-color: black;
 }
 
 a {
@@ -13,4 +15,27 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  padding: 0;
+  margin: 0 auto;
+}
+@media(max-width:767px) {
+  .container{
+    width: 95% !important;
+  }
+}
+.header{
+  width: 100%;
+  color: rgba(255,255,255,0.9);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'HWT MARDELL';
+  margin-top: 2rem;
+}
+ul{
+  list-style: none;
+  padding: 0;
 }
